@@ -7,9 +7,5 @@ exec 1>War_Driveing_Log.TXT 2>&1
 while :
 do
     nmcli -f ALL dev wifi
-    #list all devices not just networks
-    #list all gateways/ip's
-    #List bssid
-    #list mac adress
 sleep 5
 done
